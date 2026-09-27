@@ -1,54 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href = "css/main.css">
-  <title>Frontend Mentor | FAQ Accordion Card</title>
-  
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
     </style>
-</head>
-<body>
-  <div class = "container">
-    <picture class = "woman">
-      <source media="(min-width:768px)" srcset = "images/illustration-woman-online-desktop.svg">
-      <img src ="images/illustration-woman-online-mobile.svg">
-    </picture>
-    <picture class = "pattern">
-      <source media="(min-wdith:768px)" srcset = "images/bg-pattern-desktop.svg">
-      <img src="images/bg-pattern-mobile.svg">
-    </picture>
-    <div id = "question">
-      <ul>
-      <li class = "title"><h2>How many team members can I invite?</h2></li>
-      <ul id = "paragraph"><li>You can invite up to 2 additional users on the Free plan. There is no limit on 
-        team members for the Premium plan.</li></ul>
-        
-        <li class = "title"><h2>What is the maximum file upload size?</h2></li>
-        <ul id = "paragraph"><li>YouNo more than 2GB. All files in your account must fit your allotted storage space.</li></ul>
-        
-        <li class = "title"><h2>How do I reset my password?</h2></li>
-        <ul id = "paragraph"><li>Click “Forgot password” from the login page or “Change password” from your profile page.
-          A reset link will be emailed to you.</li></ul>
-          
-          <li class = "title"><h2>Can I cancel my subscription?</h2></li>
-          <ul id = "paragraph"><li>Yes! Send us a message and we’ll process your request no questions asked.</li></ul>
-          
-          <li class = "title"><h2>Do you provide additional support?</h2></li>
-          <ul id = "paragraph"><li>Chat and email support is available 24/7. Phone lines are open during normal business hours.</li></ul>
+  </head>
+  <body>
+    <div class="container">
+      <picture class="woman">
+        <source
+          media="(min-width:768px)"
+          srcset="images/illustration-woman-online-desktop.svg"
+        />
+        <img src="images/illustration-woman-online-mobile.svg" />
+      </picture>
+      <picture class="pattern">
+        <source
+          media="(min-wdith:768px)"
+          srcset="images/bg-pattern-desktop.svg"
+        />
+        <img src="images/bg-pattern-mobile.svg" />
+      </picture>
+      <div id="question">
+        <ul>
+          <li class="title"><h2>How many team members can I invite?</h2></li>
+          <ul id="paragraph">
+            <li>
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </li>
+          </ul>
+
+          <li class="title"><h2>What is the maximum file upload size?</h2></li>
+          <ul id="paragraph">
+            <li>
+              YouNo more than 2GB. All files in your account must fit your
+              allotted storage space.
+            </li>
+          </ul>
+
+          <li class="title"><h2>How do I reset my password?</h2></li>
+          <ul id="paragraph">
+            <li>
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </li>
+          </ul>
+
+          <li class="title"><h2>Can I cancel my subscription?</h2></li>
+          <ul id="paragraph">
+            <li>
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </li>
+          </ul>
+
+          <li class="title"><h2>Do you provide additional support?</h2></li>
+          <ul id="paragraph">
+            <li>
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </li>
+          </ul>
         </ul>
       </div>
-  </div>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
-      </div>
-      <script src="scripts/main.js"></script>
-    </body>
-    </html>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
